@@ -715,6 +715,36 @@ a {
 	top: 20px;
 }
 
+.lil-bounce .isi {
+	position: absolute;
+	width: 90%;
+	height: auto;
+	margin: auto 5%;
+	bottom: 15px;
+	background: #f8f8f8;
+	box-shadow: 0 0 15px rgba(0,0,0,.2);
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+
+@media (min-width: 720px) {
+  .lil-bounce .isi {
+  	width: 350px;
+  	right: 0;
+  }
+}
+
+.lil-bounce .isi-inner {
+	padding: 0 15px;
+	text-align: center;
+}
+
+.lil-bounce .plus {
+	position: absolute;
+	right: 30px;
+	top: 15px;
+}
+
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0); 
