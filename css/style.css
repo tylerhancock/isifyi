@@ -876,10 +876,7 @@ main {
   text-decoration: none;
 }
 
-
-
-
-.spinEffect{
+.spinEffect {
    transform: rotate(45deg);
    -webkit-transform: rotate(45deg);
    -ms-transform: rotate(45deg);
